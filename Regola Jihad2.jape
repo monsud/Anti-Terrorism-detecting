@@ -1,0 +1,14 @@
+Phase: Religion
+
+Options: control = appelt
+ 
+Rule: Religion1 
+
+(
+  {Token.string == "kill"} 
+
+):name
+
+-->
+
+:name.Verbs = {rule = "Religion1"}

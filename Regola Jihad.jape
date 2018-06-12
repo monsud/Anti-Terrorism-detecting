@@ -1,0 +1,14 @@
+Phase: Religion
+
+Options: control = appelt
+ 
+Rule: Religion1 
+
+(
+  {Token.string == "Allah"} 
+
+):name
+
+-->
+
+:name.Person = {rule = "Religion1"}

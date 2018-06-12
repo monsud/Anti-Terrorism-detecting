@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_17751b3c_daf4_46a6_8295_633230c040c4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_17751b3c_daf4_46a6_8295_633230c040c4">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_d0e506c2_8a4b_4fb4_b34f_81edf2c8f966"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Occupa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_47b5a8f0_747d_4216_a8f4_95a79d2f8069 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_47b5a8f0_747d_4216_a8f4_95a79d2f8069">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_c058db09_b5a9_486e_883d_546db110b35e"/>
+        <rdfs:label xml:lang="it">Viene reclutato</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_6fbd8b6a_aad1_4446_aab4_c53e9145b76c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_6fbd8b6a_aad1_4446_aab4_c53e9145b76c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Armi"/>
+        <rdfs:label xml:lang="it">Utilizza</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_715e426d_b60c_453d_95df_98aa9c18e5f6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_715e426d_b60c_453d_95df_98aa9c18e5f6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_860203df_d9ce_4252_8e94_bbbd55b79877"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42"/>
+        <rdfs:label xml:lang="it">Traduce</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_c058db09_b5a9_486e_883d_546db110b35e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_c058db09_b5a9_486e_883d_546db110b35e">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc2db2c3_2ad5_40aa_9c2f_89bf77807fca"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1d43121_68a9_4801_822f_54971159ec4c"/>
+        <rdfs:label xml:lang="it">Recluta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_d0e506c2_8a4b_4fb4_b34f_81edf2c8f966 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_d0e506c2_8a4b_4fb4_b34f_81edf2c8f966">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:label xml:lang="it">Viene occupato</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_d9f3f491_cbc2_4689_ab64_289e7fa36269 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_d9f3f491_cbc2_4689_ab64_289e7fa36269">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1d43121_68a9_4801_822f_54971159ec4c"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8fa328a6_7281_42cc_b455_a360bfcf61e3"/>
+        <rdfs:label xml:lang="it">Pubblica</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_e3242c89_7279_4e9d_818f_62157b098922 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLObjectProperty_e3242c89_7279_4e9d_818f_62157b098922">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_0e322812_caf6_41c9_b0cb_1b99d05b51f3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1836ac7_eb8f_4d59_a69e_830cda74d254"/>
+        <rdfs:label xml:lang="it">Comanda</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Armi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Armi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_0e322812_caf6_41c9_b0cb_1b99d05b51f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_0e322812_caf6_41c9_b0cb_1b99d05b51f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:label xml:lang="it">Califfo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_12b3fc32_84c0_4576_bf51_8fdb4d3223ad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_12b3fc32_84c0_4576_bf51_8fdb4d3223ad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4a272c33_cd72_43cd_b280_c579ba589e18"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_20c563a5_dbfb_4cfc_ba58_e9ec8cba793e"/>
+        <rdfs:label xml:lang="it">Twitter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_168a227d_40f5_4664_9806_c1530d345b72 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_168a227d_40f5_4664_9806_c1530d345b72">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Siria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Personale"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_eba7f779_081b_4c63_9a73_860b9038f1c5"/>
+        <rdfs:label xml:lang="it">Militare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_1cb33692_e885_45f5_baf5_41d718871374 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_1cb33692_e885_45f5_baf5_41d718871374">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6"/>
+        <rdfs:label xml:lang="it">Coltello</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_20c563a5_dbfb_4cfc_ba58_e9ec8cba793e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_20c563a5_dbfb_4cfc_ba58_e9ec8cba793e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4a272c33_cd72_43cd_b280_c579ba589e18"/>
+        <rdfs:label xml:lang="it">Facebook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_239651eb_717a_4ff3_917c_56d18a8501fd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_239651eb_717a_4ff3_917c_56d18a8501fd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42"/>
+        <rdfs:label xml:lang="it">Alrawi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3bc567ff_0a39_4396_b181_fae989fe1085 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3bc567ff_0a39_4396_b181_fae989fe1085">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6"/>
+        <rdfs:label xml:lang="it">Ascia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4">
+        <rdfs:label xml:lang="it">Zone di guerra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3fe8d38d_1fa7_4a71_bcc8_6f92dff9907f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3fe8d38d_1fa7_4a71_bcc8_6f92dff9907f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb"/>
+        <rdfs:label xml:lang="it">Fucile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Armi"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb"/>
+        <rdfs:label xml:lang="it">Da punta e taglio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8c95019c_7fdc_4417_9213_a7cdee7d392f"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4a272c33_cd72_43cd_b280_c579ba589e18"/>
+        <rdfs:label xml:lang="it">Chat criptate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4a272c33_cd72_43cd_b280_c579ba589e18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4a272c33_cd72_43cd_b280_c579ba589e18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8c95019c_7fdc_4417_9213_a7cdee7d392f"/>
+        <rdfs:label xml:lang="it">Social</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4c03619f_d1d5_4401_86a7_daf09a69a9ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4c03619f_d1d5_4401_86a7_daf09a69a9ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Iraq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_611dfd91_3b3e_473c_bf8e_ecad3bacd9c9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_611dfd91_3b3e_473c_bf8e_ecad3bacd9c9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Nigeria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_6da8d607_039f_4eac_a8ea_a349f7b8ff51 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_6da8d607_039f_4eac_a8ea_a349f7b8ff51">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42"/>
+        <rdfs:label xml:lang="it">PS4 chat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7ba58fbf_f998_432d_b204_bb6b4ca9960b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7ba58fbf_f998_432d_b204_bb6b4ca9960b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Thailandia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7dc0b142_06db_4692_b1ba_b2add503c636 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7dc0b142_06db_4692_b1ba_b2add503c636">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Libia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_860203df_d9ce_4252_8e94_bbbd55b79877 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_860203df_d9ce_4252_8e94_bbbd55b79877">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_eba7f779_081b_4c63_9a73_860b9038f1c5"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc2db2c3_2ad5_40aa_9c2f_89bf77807fca"/>
+        <rdfs:label xml:lang="it">Traduttore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8c95019c_7fdc_4417_9213_a7cdee7d392f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8c95019c_7fdc_4417_9213_a7cdee7d392f">
+        <rdfs:label xml:lang="it">Mezzi di comunicazione</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8fa328a6_7281_42cc_b455_a360bfcf61e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_8fa328a6_7281_42cc_b455_a360bfcf61e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_20c563a5_dbfb_4cfc_ba58_e9ec8cba793e"/>
+        <rdfs:label xml:lang="it">Video</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a6e9ad89_c380_45d4_aa48_c8963075c684 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a6e9ad89_c380_45d4_aa48_c8963075c684">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_47fd8bbf_e669_4be8_9fc1_a8201fda2c42"/>
+        <rdfs:label xml:lang="it">Telegram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a715c082_6f03_4c8b_ae7a_90567dbb8da6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a715c082_6f03_4c8b_ae7a_90567dbb8da6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Iran</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_ada6ed6c_5d3d_4bcd_9f0e_6894e6748d89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_ada6ed6c_5d3d_4bcd_9f0e_6894e6748d89">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6"/>
+        <rdfs:label xml:lang="it">Pugnale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc2db2c3_2ad5_40aa_9c2f_89bf77807fca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc2db2c3_2ad5_40aa_9c2f_89bf77807fca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_eba7f779_081b_4c63_9a73_860b9038f1c5"/>
+        <rdfs:label xml:lang="it">Reclutatore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Armi"/>
+        <rdfs:label xml:lang="it">Da fuoco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_d7a1fc14_d361_46e9_b7f5_9da9acd1be23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_d7a1fc14_d361_46e9_b7f5_9da9acd1be23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb"/>
+        <rdfs:label xml:lang="it">Pistola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_dbc13553_07a9_44ce_be14_291eaf99e17a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_dbc13553_07a9_44ce_be14_291eaf99e17a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6"/>
+        <rdfs:label xml:lang="it">Machete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_e73f3175_8905_4c62_9128_97f299b5e2f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_e73f3175_8905_4c62_9128_97f299b5e2f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_bc7b5573_5e91_4908_9f92_2d5c67a2a2fb"/>
+        <rdfs:label xml:lang="it">Mitra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_eba7f779_081b_4c63_9a73_860b9038f1c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_eba7f779_081b_4c63_9a73_860b9038f1c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Personale"/>
+        <rdfs:label xml:lang="it">Civile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f16aa0f1_e70e_435e_9226_2eb5df8876f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f16aa0f1_e70e_435e_9226_2eb5df8876f5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4699f7b0_2a07_4a43_b0f9_13f5e28ad7e6"/>
+        <rdfs:label xml:lang="it">Spada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1836ac7_eb8f_4d59_a69e_830cda74d254 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1836ac7_eb8f_4d59_a69e_830cda74d254">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:label xml:lang="it">Capitano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1d43121_68a9_4801_822f_54971159ec4c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1d43121_68a9_4801_822f_54971159ec4c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_17ac8ebe_3b8e_47c0_8794_b8761cfaeb9a"/>
+        <rdfs:label xml:lang="it">Combattente</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_fda92a81_5136_4080_987b_a014bd8fb841 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_fda92a81_5136_4080_987b_a014bd8fb841">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3ea4a62e_a492_40d8_b95c_4c6b1d4248b4"/>
+        <rdfs:label xml:lang="it">Afghanistan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Personale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#Personale"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLNamedIndividual_a3585992_ccec_45e3_bffb_b15ac460a6e2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLNamedIndividual_a3585992_ccec_45e3_bffb_b15ac460a6e2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_0e322812_caf6_41c9_b0cb_1b99d05b51f3"/>
+        <rdfs:label xml:lang="it">Abu Bakr al-Baghdadi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLNamedIndividual_e27fac94_97ec_41ea_ae7d_f01edbae89a3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLNamedIndividual_e27fac94_97ec_41ea_ae7d_f01edbae89a3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a6e9ad89_c380_45d4_aa48_c8963075c684"/>
+        <rdfs:label xml:lang="it">Nasher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_0e322812_caf6_41c9_b0cb_1b99d05b51f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1836ac7_eb8f_4d59_a69e_830cda74d254"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f1d43121_68a9_4801_822f_54971159ec4c"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_168a227d_40f5_4664_9806_c1530d345b72"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_4c03619f_d1d5_4401_86a7_daf09a69a9ef"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_611dfd91_3b3e_473c_bf8e_ecad3bacd9c9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7ba58fbf_f998_432d_b204_bb6b4ca9960b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_7dc0b142_06db_4692_b1ba_b2add503c636"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a715c082_6f03_4c8b_ae7a_90567dbb8da6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_fda92a81_5136_4080_987b_a014bd8fb841"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_1cb33692_e885_45f5_baf5_41d718871374"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3bc567ff_0a39_4396_b181_fae989fe1085"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_ada6ed6c_5d3d_4bcd_9f0e_6894e6748d89"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_dbc13553_07a9_44ce_be14_291eaf99e17a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_f16aa0f1_e70e_435e_9226_2eb5df8876f5"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_239651eb_717a_4ff3_917c_56d18a8501fd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_6da8d607_039f_4eac_a8ea_a349f7b8ff51"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_a6e9ad89_c380_45d4_aa48_c8963075c684"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_3fe8d38d_1fa7_4a71_bcc8_6f92dff9907f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_d7a1fc14_d361_46e9_b7f5_9da9acd1be23"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/monsud/ontologies/2018/3/untitled-ontology-2#OWLClass_e73f3175_8905_4c62_9128_97f299b5e2f3"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
